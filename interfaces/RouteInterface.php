@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Interface Route
+ * Interface RouteInterface
  */
 interface RouteInterface
 {

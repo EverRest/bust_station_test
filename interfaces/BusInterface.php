@@ -3,12 +3,8 @@
 /**
  * Interface Bus1
  */
-interface Bus
+interface BusInterface
 {
-    /**
-     * @return mixed
-     */
-    public function drive();
     /**
      * @return mixed
      */
@@ -28,9 +24,4 @@ interface Bus
      * @return mixed
      */
     public function goOut();
-
-    /**
-     * @return mixed
-     */
-    public function wait();
 }
